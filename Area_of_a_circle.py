@@ -1,3 +1,6 @@
-a=float(input())
+a=int(input())
 b=3.14*a*a
-print("%.2f"%b)
+#c=2*3.14*a
+formated_area="{:.2f}".format(b)
+print(formated_area)
+#print(c)
